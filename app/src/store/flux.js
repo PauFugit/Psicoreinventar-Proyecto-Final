@@ -6,7 +6,7 @@ const getState = ({ getStore, getActions, setStore }) => {
   return {
     // Define all my variables
     store: {
-      apiURL: "http://127.0.0.1:5000",
+      apiURL: "https://psicoreinventar-api.onrender.com",
       email: "",
       password: "",
       name: "",
